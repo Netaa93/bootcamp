@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+#portada {
+  height: 200px;
+  background-color: rgb(200, 148, 249);
+  background-image: url(fotos/Pollo\ Chicken\ PORTADA.jpg);
+  background-size: 600px;
+  background-position: center;
+}
+
+#titulo {
+  height: 100px;
+  background-color: rgb(252, 252, 252);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 90px;
+  color: rgb(26, 0, 128);
+  text-align: center;
+  font-weight: bold;
+  line-height: 100px;
+}
+
+#menu {
+  height: 50px;
+  background-color: rgb(100, 189, 155);
+  color: rgb(255, 255, 255);
+  font-family: "IBM Plex Mono", monospace;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 100px 0 0;
+}
+
+p {
+  font-size: large;
+  margin: 20px;
+}
+
+#main {
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 1px solid white;
+  padding: 20px;
+  align-items: center;
+}
+
+img {
+  height: 300px;
+  width: 350px;
+}
+
+#footer {
+  height: 100px;
+  background-color: rgb(200, 148, 249);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-align: center;
+  line-height: 100px;
+}
+
+a:hover {
+  color: brown;
+}

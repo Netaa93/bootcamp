@@ -1,14 +1,74 @@
-p {
-  color: rgb(122, 63, 122);
-  border: 1px solid black;
-  /* background-color: yellow; */
+/* Esto cambia toda la pagina */
+body {
+  margin: 0;
 }
 
-#footer {
-  color: tomato;
-  font-size: 30px;
-  background-color: brown;
+#header {
+  height: 150px;
+  background-color: rgb(176, 232, 136);
+  background-image: url("https://concepto.de/wp-content/uploads/2019/05/aurora-boreal-polar-e1559012098292.jpg");
+  background-position: center;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "IBM Plex Mono", monospace;
+  text-align: center;
+  line-height: 150px;
 }
-.verde {
-  color: green;
+
+#menu {
+  height: 20px;
+  background-color: rgb(92, 92, 243);
+  color: antiquewhite;
+  font-family: "IBM Plex Mono", monospace;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+ul {
+  margin: 0;
+}
+li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 50px 0 0;
+}
+/* Este es el contenido principal */
+#Main {
+  height: 500px;
+  background-color: rgb(245, 169, 233);
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: row;
+}
+
+#sidebar {
+  background-color: brown;
+    height: ?
+  width: 25%;
+}
+#article {
+  background-color: yellow;
+  height: 500px;
+  width: 75%;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: brown;
+}
+/* Este es el pie de pagina */
+#footer {
+  height: 150px;
+  background-color: rgb(92, 92, 243);
+  color: floralwhite;
+  font-size: 25px;
+  line-height: 50px;
+  text-align: center;
+  font-family: "Silkscreen", cursive;
 }
